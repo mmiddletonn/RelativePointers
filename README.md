@@ -12,10 +12,6 @@ The application uses JavaScript to calculate the position of the current window 
 
 Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.
 
-## Credits
-
-This project was inspired by the creative work of [_nonfigurativ_](https://twitter.com/_nonfigurativ_) on Twitter, specifically this post: https://twitter.com/_nonfigurativ_/status/1727322594570027343
-
 ## License
 
 This project is open-sourced and available under the [MIT License](LICENSE).
@@ -23,3 +19,7 @@ This project is open-sourced and available under the [MIT License](LICENSE).
 ## Contact
 
 For any queries or suggestions, feel free to contact me@matt-middleton.com.
+
+## Credits
+
+This project was inspired by the creative work of [_nonfigurativ_](https://twitter.com/_nonfigurativ_) on Twitter, specifically this post: https://twitter.com/_nonfigurativ_/status/1727322594570027343
