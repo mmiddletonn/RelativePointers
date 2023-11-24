@@ -4,6 +4,10 @@
 
 This project displays a dynamic arrow in a web page that points towards the direction of other open windows (or tabs) of the same website.
 
+## Demo(no ui to indicate what to do, but you just have to open the webpage in 2 or more instances)
+
+https://mmiddletonn.github.io/RelativePointers/
+
 ## How It Works
 
 The application uses JavaScript to calculate the position of the current window relative to other open windows. It then adjusts the direction of a centrally located arrow to point towards these windows. The positions are stored and updated in the browser's local storage, allowing for communication between windows.
