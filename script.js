@@ -57,4 +57,4 @@ function updateArrows() {
     });
 }
 
-setInterval(updateArrows, .5);
+setInterval(updateArrows, 1);
