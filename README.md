@@ -24,4 +24,4 @@ This project is open-sourced and available under the [MIT License](LICENSE.md).
 
 ## Contact
 
-For any queries or suggestions, feel free to contact [me@matt-middleton.com].
+For any queries or suggestions, feel free to contact me@matt-middleton.com.
