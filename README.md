@@ -14,7 +14,7 @@ Contributions to this project are welcome. Please fork the repository and submit
 
 ## License
 
-This project is open-sourced and available under the [MIT License](LICENSE.md).
+This project is open-sourced and available under the [MIT License](LICENSE).
 
 ## Contact
 
