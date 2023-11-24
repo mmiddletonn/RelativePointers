@@ -7,6 +7,7 @@ This project displays a dynamic arrow in a web page that points towards the dire
 ## Demo
 
 https://mmiddletonn.github.io/RelativePointers/
+
 (I did not set uo any to indicate what to do, but just open the webpage in 2 or more instances and arrows/lines will appear)
 
 ## How It Works
