@@ -2,13 +2,7 @@
 
 ## Overview
 
-This project displays a dynamic arrow in a web page that points towards the direction of other open windows (or tabs) of the same website. It's particularly useful for visualizing the relative positions of multiple browser windows on the screen.
-
-## Features
-
-- **Dynamic Arrow Rotation**: An arrow that rotates to point towards the average direction of all other open windows.
-- **Real-Time Updates**: The arrow's direction updates in real-time as other windows move.
-- **Responsive Design**: Works with various window sizes and screen resolutions.
+This project displays a dynamic arrow in a web page that points towards the direction of other open windows (or tabs) of the same website.
 
 ## How It Works
 
