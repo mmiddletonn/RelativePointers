@@ -7,7 +7,8 @@ const uniqueKey = generateUniqueKey();
 function updateCenterPosition() {
     const position = {
         x: window.innerWidth / 2 + window.screenX,
-        y: window.innerHeight / 2 + window.screenY
+        y: window.innerHeight / 2 + window.screenY,
+        timestamp: Date.now() // Include a timestamp for each update
     };
     localStorage.setItem(uniqueKey, JSON.stringify(position));
 }
@@ -23,7 +24,13 @@ function getOtherWindowsPositions() {
     for (let i = 0; i < localStorage.length; i++) {
         const key = localStorage.key(i);
         if (key.startsWith('windowCenter_') && key !== uniqueKey) {
-            positions.push({ key, ...JSON.parse(localStorage.getItem(key)) });
+            const positionData = JSON.parse(localStorage.getItem(key));
+            // Check if the position data is older than 100ms
+            if (Date.now() - positionData.timestamp < 100) { 
+                positions.push({ key, ...positionData });
+            } else {
+                localStorage.removeItem(key); // Remove outdated position data
+            }
         }
     }
     return positions;
@@ -50,4 +57,4 @@ function updateArrows() {
     });
 }
 
-setInterval(updateArrows, 1);
+setInterval(updateArrows, .5);
