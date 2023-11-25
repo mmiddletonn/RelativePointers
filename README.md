@@ -16,7 +16,7 @@ https://mmiddletonn.github.io/RelativePointers/
 
 ## How It Works
 
-The application uses JavaScript to calculate the position of the current window relative to other open windows. It then adjusts the direction of a centrally located arrow to point towards these windows. The positions are stored and updated in the browser's local storage, allowing for communication between windows.
+The website uses JavaScript to calculate the position of the current window relative to other open windows. It then adjusts the direction of a centrally located arrow to point towards these windows. The positions are stored and updated in the browser's local storage, allowing for communication between windows.
 
 ## License
 
